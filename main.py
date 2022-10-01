@@ -1,4 +1,4 @@
-def parse_d(query: str) -> dict:
+def parse_d(url) -> dict:
     return {}
 
 
