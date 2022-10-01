@@ -27,7 +27,7 @@ if __name__ == '__main__':
     assert parse_d('http://account.org/?user=Stas&sec_name=Pop') == {'user': 'Stas', 'sec_name': 'Pop'}
 
 
-def parse_cookie(query: str) -> dict:
+def parse_cookie(cooks) -> dict:
     return {}
 
 
