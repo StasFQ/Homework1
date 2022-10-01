@@ -6,6 +6,7 @@ if __name__ == '__main__':
     assert parse_d('https://example.com/path/to/page?name=ferret&color=purple') == {'name': 'ferret', 'color': 'purple'}
     assert parse_d('https://example.com/path/to/page?name=ferret&color=purple&') == {'name': 'ferret', 'color': 'purple'}
     assert parse_d('http://example.com/?') == {}
+    assert parse('http://example.com/') == {}
     assert parse_d('http://example.com/?name=Dima') == {'name': 'Dima'}
 
 
